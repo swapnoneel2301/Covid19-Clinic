@@ -5,5 +5,6 @@ Usage
 ```
 $ npm install
 $ nodemon app.js 
+
+# Visit http://localhost:3000 
 ```
-<!--- Visit http://localhost:3000 --->
