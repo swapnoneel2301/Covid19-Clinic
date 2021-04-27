@@ -1,0 +1,60 @@
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <a class="navbar-brand text-dark" href="/">NEOTIA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/dashboard">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/account">Account</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/history">History</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+            <a class="nav-link" href="/users/logout">Sign Out</a>
+        </span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="d-flex justify-content-center mt-3">
+  <div class="card" style="width: 50rem;">
+    <div class="card-body">
+      <h4 class="card-title">Account Details</h4>
+      <hr>
+        <div>
+           <b> Name - </b>
+           <span style="font-size:larger;"> <%= user.name %> </span>
+        </div>
+        <div>
+            <b> Age - </b>
+        <span style="font-size:larger;"> <%= age %> </span>
+        </div>
+        <div>
+            <b> Email - </b>
+        <span style="font-size:larger;"> <%= user.email %> </span>
+        </div>
+        <div>
+            <b> Phone - </b>
+        <span style="font-size:larger;"> <%= user.phone %> </span>
+        </div>
+        <div>
+            <b> Adhar - </b>
+        <span style="font-size:larger;"><%= user.adhar %> </span>
+        </div>
+        <div>
+            <b> No of COVID19 test - </b>
+        <span style="font-size:larger;"><%= no_covid_test %> </span>
+        </div>
+
+      
+      
+    </div>
+  </div>
+</div>
