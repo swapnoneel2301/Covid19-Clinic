@@ -15,4 +15,4 @@ $ nodemon app.js
 ![Dashboard after applying for test](https://github.com/swapnoneel2301/Covid19-Clinic/blob/main/Hospital_website/Images/Screenshot%20(278).png)
 
 ---
-[!Previous tests and their result](https://github.com/swapnoneel2301/Covid19-Clinic/blob/main/Hospital_website/Images/Screenshot%20(279).png)
+![Previous tests and their result](https://github.com/swapnoneel2301/Covid19-Clinic/blob/main/Hospital_website/Images/Screenshot%20(279).png)
