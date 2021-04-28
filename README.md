@@ -8,3 +8,4 @@ $ nodemon app.js
 
 # Visit http://localhost:3000 
 ```
+![Dashboard](https://github.com/swapnoneel2301/Covid19-Clinic/blob/main/Hospital_website/Images/Screenshot%20(277).png)
